@@ -6,4 +6,4 @@ ActiveAdmin.register Purchase do
       end
     end
   end
-end 
+end
