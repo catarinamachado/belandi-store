@@ -9,7 +9,12 @@ AdminUser.create!(email: 'admin@example.com', password: 'password', password_con
 
 AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
 
-redRings = Product.create(title: "Brincos vermelhos",
+redEarring = Product.create(title: "Brincos vermelhos",
                          subtitle: "Pequenos", image_name: "IMG_4750.HEIC",
                          price: "4.99", sku: "brincosVermelhos", download_url: "https://rails-belandi-bucket.s3.eu-west-2.amazonaws.com/IMG_4750.HEIC",
                          details: "Com detalhes dourados", description: %{<p>Brincos vermelhos</p> })
+
+blueEarring = Product.create(title: "Brincos com franjas azuis",
+                             subtitle: "Franjas", image_name: "IMG_4663.HEIC",
+                             price: "4.99", sku: "brincosFranjasAzuis", download_url: "https://rails-belandi-bucket.s3.eu-west-2.amazonaws.com/IMG_4663.HEIC",
+                             details: "Com argola prateada", description: %{<p>Brincos com franjas azuis</p> })
