@@ -8,7 +8,7 @@
   <% @products.each do |product| %>
     <div class="product clearfix">
       <a href="<%= product_path(product) %>">
-      <div class="product-image-container">
+        <div class="product-image-container">
           <img src="<%= asset_path product.image_name %>"  alt="<%= product.title %>"/>
           <span class="product-price">$<%= product.price %></span>
         </div>
